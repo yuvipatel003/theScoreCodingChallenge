@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_team"
+    app:startDestination="@id/teamListFragment">
+
+    <fragment
+        android:id="@+id/teamListFragment"
+        android:name="com.yuvrajpatel.thescoretask.ui.fragment.TeamListFragment"
+        android:label="@string/str_teams"
+        tools:layout="@layout/fragment_teams_list" >
+        <action
+            android:id="@+id/action_teamListFragment_to_teamDetailFragment"
+            app:destination="@id/teamDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/teamDetailFragment"
+        android:name="com.yuvrajpatel.thescoretask.ui.fragment.TeamDetailFragment"
+        android:label="@string/str_team_details"
+        tools:layout="@layout/fragment_team_details" />
+</navigation>

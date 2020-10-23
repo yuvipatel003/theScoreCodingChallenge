@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">theScore Task</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="str_wins">Wins:</string>
+    <string name="str_losses">Losses:</string>
+    <string name="str_teams">Teams</string>
+    <string name="str_team_details">Team Details</string>
+    <string name="str_position">Position:</string>
+    <string name="str_number">No:</string>
+    <string name="str_space">\u0020</string>
+
+</resources>
